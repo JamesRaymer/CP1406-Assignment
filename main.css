@@ -1,0 +1,159 @@
+body {
+  background-color: #F0F9FE;
+  width: 1500px;
+  margin:auto;
+}
+.title {
+  text-align:center;
+  font-size: 75px;
+}
+ul {
+  list-style:none;
+}
+li  {
+  font-size: 20px;
+  font-style: oblique;
+}
+#navBar {
+  text-align: center;
+  margin-left:-10px;
+  width: 100%;
+  height: 27px;
+  padding: 10px;
+  background-color: #95D9DA;
+  border-radius: 5px;
+}
+#topNavLink {
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+  color:black;
+}
+#topNavLink:hover {
+  transition: 0.5s;
+  background-color: #CDECED;
+}
+#footer {
+  background-color: #95D9DA;
+  border-radius: 5px;
+  width: 1500px;
+  height: 200px;
+}
+#announcements {
+  display: inline-block;
+  margin: auto;
+  padding: 5px;
+  background-color: #95D9DA;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.AnnounceHeading {
+  font-size: 30px;
+  text-align: center;
+}
+#ladderTable {
+  display:inline-block;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 40%;
+}
+.ladderHeading {
+  padding-right: 10%;
+  font-size: 30px;
+}
+.aboutVolleyballHeading {
+  font-size: 30px;
+  text-align: center;
+}
+.contactUsHeading {
+  margin: 0;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 3%;
+}
+.contactList {
+  margin: 0 ;
+}
+#aboutVolleyball {
+  margin: auto;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+.whoCanPlayHeading {
+  font-size: 30px;
+  text-align: center;
+}
+#whoPlayVolleyball {
+  display: inline-block;
+  margin: auto;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  background-color: #95D9DA;
+  border-radius: 10px;
+  max-width: 800px;
+}
+.linksHeading {
+  font-size: 20px;
+  text-align: center;
+}
+.playingGuidelinesHeading {
+  font-size: 30px;
+  text-align: center;
+}
+#links {
+  margin: auto;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  font-size: 15px;
+  background-color: #95D9DA;
+  border-radius: 10px;
+  max-width: 800px;
+}
+#playingGuidelines {
+  margin: auto;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+  font-size: 20px;
+  background-color: #95D9DA;
+  border-radius: 10px;
+  max-width: 800px;
+}
+.spike {
+  padding-left: 10%;
+  padding-right: 15%;
+  display: inline-block;
+  border-radius: 10px;
+  max-width:600px;
+}
+.game {
+  float: left;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+.sand {
+  float: left;
+  padding-left: 10%;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+#firstContent {
+  display: flex;
+  flex-direction: row;
+}
+#secondContent {
+  display: flex;
+  flex-direction: row;
+}
+#ThirdContent {
+  display: flex;
+  flex-direction: row;
+}
