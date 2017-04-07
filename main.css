@@ -1,4 +1,5 @@
 body {
+  background-color: #F0F9FE;
   width: 1500px;
   margin:auto;
 }
@@ -32,17 +33,11 @@ li  {
   transition: 0.5s;
   background-color: #CDECED;
 }
-#footer {
-  padding:5px;
-  background-color: #95D9DA;
-  border-radius: 5px;
-  max-width: inherit;
-  max-height: 110px;
-}
 #announcements {
   display: inline-block;
   margin: auto;
   padding: 5px;
+  text-transform: uppercase;
   background-color: #95D9DA;
   border-radius: 10px;
   max-width: 600px;
@@ -51,20 +46,34 @@ li  {
   font-size: 30px;
   text-align: center;
 }
+.picLink {
+  padding-right: 350px;
+  padding-left: 120px;
+  padding-top: 30px;
+}
 #ladderTable {
-  margin: auto;
-  padding:5px;
+  display:inline-block;
+  padding-bottom: 15px;
   border-radius: 10px;
   text-align: center;
-  background-color: #95D9DA;
-  max-width: 600px;
+  width: 40%;
 }
 .ladderHeading {
+  padding-right: 10%;
   font-size: 30px;
 }
 .aboutVolleyballHeading {
   font-size: 30px;
   text-align: center;
+}
+.contactUsHeading {
+  margin: 0;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 3%;
+}
+.contactList {
+  margin: 0 ;
 }
 #aboutVolleyball {
   margin: auto;
@@ -72,7 +81,6 @@ li  {
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 5px;
-  background-color: #95D9DA;
   border-radius: 10px;
   max-width: 1000px;
 }
@@ -81,6 +89,7 @@ li  {
   text-align: center;
 }
 #whoPlayVolleyball {
+  display: inline-block;
   margin: auto;
   font-size: 20px;
   padding-top: 5px;
@@ -94,27 +103,85 @@ li  {
   font-size: 20px;
   text-align: center;
 }
+.playingGuidelinesHeading {
+  font-size: 30px;
+  text-align: center;
+}
 #links {
-  margin: auto;
-  padding-top: 1px;
+  display: inline-block;
+  margin-left:200px;
   padding-left: 10px;
+  padding-top: 1px;
   padding-bottom: 1px;
   font-size: 15px;
   background-color: #95D9DA;
   border-radius: 10px;
   max-width: 800px;
 }
+#playingGuidelines {
+  margin: auto;
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background-color: #95D9DA;
+  border-radius: 10px;
+  max-width: 800px;
+}
+#signUp {
+  padding-top: 5px;
+  margin-left: 40%;
+
+}
+.signUpHeading {
+  font-size: 40px;
+  padding-left: 30px;
+}
+.submitButton {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 2%;
+  margin-left: 48%;
+  text-decoration: none;
+  background-color: #95D9DA;
+  border-radius: 10px;
+}
 .spike {
-  border-radius: 5px;
-  max-width: 500px;
-  max-height: 500px;
+  padding-left: 10%;
+  padding-right: 15%;
+  display: inline-block;
+  border-radius: 10px;
+}
+.game {
+  float: left;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+.sand {
+  float: left;
+  padding-left: 10%;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+#contactSection {
+  display: inline-block;
+  margin: auto;
+  float: right;
+  padding-right: 200px;
 }
 #firstContent {
   display: flex;
   flex-direction: row;
 }
 #secondContent {
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#ThirdContent {
+  display: flex;
+  flex-direction: row;
+}
+#FourthContent {
   display: flex;
   flex-direction: row;
 }
